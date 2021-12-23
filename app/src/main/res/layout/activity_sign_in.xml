@@ -29,7 +29,7 @@
             android:textSize="30dp"
             android:gravity="center"
             android:text="WorldCinema"
-            android:textColor="@color/maincolor" />
+            android:textColor="@color/main_color" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -39,7 +39,7 @@
             app:srcCompat="@drawable/logo" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/Email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -47,19 +47,21 @@
             android:background="@drawable/buttoncover"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
-            android:text="@string/e_mail"
-            android:textColor="@color/textbutton" />
+            android:textColorHint="@color/text_button"
+            android:hint="@string/e_mail"
+            android:textColor="@color/text_button" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
             android:background="@drawable/buttoncover"
             android:padding="10dp"
-            android:text="Пароль"
-            android:textColor="@color/textbutton" />
+            android:textColorHint="@color/text_button"
+            android:hint="Пароль"
+            android:textColor="@color/text_button" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -70,7 +72,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/SignIn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
@@ -79,7 +81,7 @@
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/SignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttoncover"
