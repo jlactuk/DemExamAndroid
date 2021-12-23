@@ -4,8 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ImageButton;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -33,7 +35,14 @@ public class ChatsListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_chats_list);
         recyclerViewChats = findViewById(R.id.recyclerViewChats);
         recyclerViewChats.setLayoutManager(new LinearLayoutManager(ChatsListActivity.this));
+        ImageButton imageButtonArrowBack = findViewById(R.id.imageButtonArrowBack);
         getChats();
+
+        imageButtonArrowBack.setOnClickListener(e->
+        {
+            startActivity(new Intent(this, MainActivity.class)); //Заменить на переход в профиль
+            finish();
+        });
     }
 
     private void getChats()
