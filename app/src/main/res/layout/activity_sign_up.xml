@@ -24,11 +24,11 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="30dp"
             android:textSize="30dp"
             android:gravity="center"
             android:text="WorldCinema"
-            android:textColor="@color/maincolor" />
+            android:textColor="@color/main_color" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -46,9 +46,9 @@
             android:background="@drawable/buttoncover"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
-            android:textColorHint="@color/textbutton"
+            android:textColorHint="@color/text_button"
             android:hint="Имя"
-            android:textColor="@color/textbutton" />
+            android:textColor="@color/text_button" />
 
         <EditText
             android:id="@+id/lastName"
@@ -59,9 +59,9 @@
             android:background="@drawable/buttoncover"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
-            android:textColorHint="@color/textbutton"
+            android:textColorHint="@color/text_button"
             android:hint="Фамилия"
-            android:textColor="@color/textbutton" />
+            android:textColor="@color/text_button" />
 
         <EditText
             android:id="@+id/Email"
@@ -72,12 +72,12 @@
             android:background="@drawable/buttoncover"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
-            android:textColorHint="@color/textbutton"
+            android:textColorHint="@color/text_button"
             android:hint="@string/e_mail"
-            android:textColor="@color/textbutton" />
+            android:textColor="@color/text_button" />
 
         <EditText
-            android:id="@+id/password"
+            android:id="@+id/Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -85,20 +85,20 @@
             android:background="@drawable/buttoncover"
             android:padding="10dp"
             android:layout_marginBottom="10dp"
-            android:textColorHint="@color/textbutton"
+            android:textColorHint="@color/text_button"
             android:hint="Пароль"
-            android:textColor="@color/textbutton" />
+            android:textColor="@color/text_button" />
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/Password2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
             android:background="@drawable/buttoncover"
             android:padding="10dp"
-            android:textColorHint="@color/textbutton"
+            android:textColorHint="@color/text_button"
             android:hint="Поовторите пароль"
-            android:textColor="@color/textbutton" />
+            android:textColor="@color/text_button" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -109,20 +109,20 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/SignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:background="@drawable/buttoncoverpurple"
-                android:text="Войти"
+                android:text="Зарегестрироваться"
                 android:textColor="@color/white" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/SignIn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/buttoncover"
-                android:text="Регистрация"
+                android:text="У меня уже есть аккаунт"
                 android:textColor="@color/c1button" />
         </LinearLayout>
     </LinearLayout>
