@@ -9,8 +9,8 @@
     tools:context=".Profile">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -151,7 +151,7 @@
 
     </LinearLayout>
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -167,91 +167,96 @@
 
             <LinearLayout
                 android:id="@+id/main"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:orientation="vertical">
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     app:srcCompat="@drawable/main" />
 
                 <TextView
                     android:id="@+id/textView2"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Главная"
+                    android:textAlignment="center"
                     android:textColor="@color/active_text" />
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/podborka"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView3"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     app:srcCompat="@drawable/podborka" />
 
                 <TextView
                     android:id="@+id/textView3"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Подборка"
+                    android:textAlignment="center"
                     android:textColor="@color/text_button" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/collections"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
                     app:srcCompat="@drawable/star" />
 
                 <TextView
                     android:id="@+id/textView4"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Коллекция"
+                    android:textAlignment="center"
                     android:textColor="@color/text_button" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:id="@+id/profile"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:orientation="vertical">
 
                 <ImageView
                     android:id="@+id/imageView5"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
                     app:srcCompat="@drawable/profile" />
 
                 <TextView
                     android:id="@+id/textView5"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Профиль"
+                    android:textAlignment="center"
                     android:textColor="@color/text_button" />
 
             </LinearLayout>

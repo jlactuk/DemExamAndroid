@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item  android:id="@+id/activity_main"
+        android:icon="@drawable/ic_main"
+        android:title="Главное"
+        android:enabled="true"/>
+    <item  android:id="@+id/activity_podbor"
+        android:icon="@drawable/ic_podborka"
+        android:title="Подборка"
+        android:enabled="true"/>
+    <item  android:id="@+id/activity_collection"
+        android:icon="@drawable/ic_collection"
+        android:title="Коллекция"
+        android:enabled="true"/>
+    <item  android:id="@+id/activity_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Профиль"
+        android:enabled="true"/>
+</menu>
