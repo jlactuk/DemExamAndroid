@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/JlaCTuK/AndroidStudioProjects/Dead/app/src/main/res/drawable/border_radius.xml" value="0.225" />
         <entry key="..\:/Users/JlaCTuK/AndroidStudioProjects/Dead/app/src/main/res/drawable/buttoncover.xml" value="0.3880208333333333" />
         <entry key="..\:/Users/JlaCTuK/AndroidStudioProjects/Dead/app/src/main/res/drawable/buttoncoverpurple.xml" value="0.3880208333333333" />
         <entry key="..\:/Users/JlaCTuK/AndroidStudioProjects/Dead/app/src/main/res/drawable/splashscreen.xml" value="0.3880208333333333" />
-        <entry key="..\:/Users/JlaCTuK/AndroidStudioProjects/Dead/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/JlaCTuK/AndroidStudioProjects/Dead/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/JlaCTuK/AndroidStudioProjects/Dead/app/src/main/res/layout/activity_profile.xml" value="0.33" />
         <entry key="..\:/Users/JlaCTuK/AndroidStudioProjects/Dead/app/src/main/res/layout/activity_sign_in.xml" value="0.33" />
         <entry key="..\:/Users/JlaCTuK/AndroidStudioProjects/Dead/app/src/main/res/layout/activity_sign_up.xml" value="0.2957427536231884" />
       </map>

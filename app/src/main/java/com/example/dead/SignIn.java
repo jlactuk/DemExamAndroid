@@ -66,7 +66,8 @@ public class SignIn extends AppCompatActivity {
                         JSONObject json = new JSONObject(response.body().string());
 
                         GlobalVars.token = json.getInt("token");
-                        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                        Log.d("Token", String.valueOf(GlobalVars.token));
+                        Intent intent = new Intent(getApplicationContext(),Profile.class);
                         startActivity(intent);
                         finish();
                     } catch (JSONException e) {
