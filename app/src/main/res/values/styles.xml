@@ -3,4 +3,9 @@
     <style name="SplashScreen" parent="Theme.Dead">
         <item name="android:windowBackground">@drawable/splashscreen</item>
     </style>
+    <style name="some_id">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#AFAFAF</item>
+    </style>
 </resources>
