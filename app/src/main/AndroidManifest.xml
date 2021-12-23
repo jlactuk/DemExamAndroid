@@ -13,15 +13,11 @@
         android:theme="@style/Theme.Dead"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".SignUp"
+            android:name=".TheChatActivity"
             android:exported="false" />
         <activity
-            android:name=".SignIn"
-            android:exported="false" />
-        <activity
-            android:name=".SplachScreen"
-            android:exported="true"
-            android:theme="@style/SplashScreen">
+            android:name=".ChatsListActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,8 +25,24 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".SplachScreen"
+            android:exported="false"
+            android:theme="@style/SplashScreen">
+
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

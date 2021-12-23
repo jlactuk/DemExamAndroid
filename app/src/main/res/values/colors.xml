@@ -6,7 +6,7 @@
     <color name="textbutton">#AFAFAF</color>
     <color name="maincolor">#EFBAD3</color>
     <color name="cborder">#A8A8A8</color>
-    <color name="transparent">transparent</color>
+    <color name="transparent">#00000000</color>
     <color name="c1button">#A163F5</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
